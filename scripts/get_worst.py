@@ -20,5 +20,6 @@ def main(input):
 
     print(f'{max_vio:.2f}')
 
+
 if __name__ == "__main__":
     main()

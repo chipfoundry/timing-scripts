@@ -91,6 +91,8 @@ class TimingPath:
             start = "input"
         elif "edge-triggered" in self.start_point:
             start = "reg"
+        elif "/CLK" in self.start_point:
+            start = "reg"
         else:
             start = "unknown"
 
